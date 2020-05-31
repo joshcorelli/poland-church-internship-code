@@ -4,14 +4,14 @@ Going to host an html sermons and devotional page
 
 <html>
     <head>
-        <title>Sermons and DailyDevos</title>
+        <title>DailyDevos</title>
     </head>
 
 <body>
 
 <br>
 
-<h2><center>Sermons and dailyDevos</center></h1>
+<h2><center>DailyDevos</center></h1>
 
 <p>Stuff</p>
 
