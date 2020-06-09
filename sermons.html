@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+    
     <head>
         <link rel="stylesheet" href="stylesheet.css">
 
@@ -12,22 +13,33 @@
 
     <body>
 
-        <h1>Sermons</h1>
+        <h1 class="title">Sermons</h1>
 
         <article>
 
-            <section>
-                <h2>Sermons1</h2>
+            <section class="sect">
+                
+                    <div class="sectcontent">
+                
+                        <h2 class="title">Sermon Title</h2>
 
-                <audio controls src="Khalid.wav">
-                Your browser does not support the <code>audio</code> element.
-                </audio>
+                        <audio controls src="Khalid.wav" class="aud">
+                        Your browser does not support the <code>audio</code> element.
+                        </audio>
 
-                <p>download audio button?</p>
+                        <button class="btn1">Download Audio</button>
 
-                <p><strong>Sermon passage</strong></p>
+                        <iframe width="533" height="100" src="https://www.youtube.com/embed/ZPZ2uABVMKA" 
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
+                        picture-in-picture" allowfullscreen class="vid"></iframe>
 
-                <p>close button</p>
+                        <p><strong>Sermon passage</strong></p>
+
+                        <p>Random text</p>
+
+                        <button class="btn2">Close</button>
+
+                    </div>
 
             </section>
 
