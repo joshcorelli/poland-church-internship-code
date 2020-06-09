@@ -2,51 +2,62 @@ html {
     background-color: tan;
 }
 
+h1 {
+    text-align: center;
+}
+
  article {
     margin: 5%;
 }
 
-.title {
+.tile {
     text-align: center;
-}
-
-.btn1 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: 125px;
-    height: 25px;
-    background-color: white;
-    padding: violet;
-    border: 2px solid violet;
-}
-
-.btn1:hover{
-    background-color: violet;
+    width: 250px;
+    height: 100px;
+    background-color: lightgray;
 }
 
 .sect {
-    border: 2px solid black;
+    /*margin-left: 45%;*/
+    border: 1px solid black;
 }
 
 .sectcontent {
     margin: 1% 3% 1% 3%;
 }
 
-.aud, .vid {
-    width: 100%;
+.title {
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 
-.btn2 {
-    margin-top: 1%;
+.btn1, .btn2 {
     margin-bottom: 1%;
-    margin-left: 88%;
     width: 125px;
     height: 25px;
     background-color: white;
-    padding: violet;
-    border: 2px solid violet;
+    border: 2px solid black;
 }
 
-.btn2:hover{
-    background-color: violet;
+.btn1:hover, .btn2:hover {
+    background-color: lightgrey;
+}
+
+.btn1:focus, .btn2:focus{
+    outline: lightblue solid 1px;
+    border-color: lightblue;
+}
+
+/*Needs to be pushed to the right of the page
+.btn2 {
+
+}*/
+
+/*.aud {
+    width: 533px;
+}*/
+
+.aud, .vid {
+    /*margin: 0 auto;*/
+    width: 100%;
 }
