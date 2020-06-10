@@ -2,62 +2,73 @@
 
 <html>
     <head>
+
+        <link rel="stylesheet" href="style.css">
+
         <!--Includes any character from any language-->
         <meta charset="utf-8">
+
         <title>DailyDevos</title>
+
     </head>
 
     <body>
 
     <br>
 
-    <!--Would use css to center the heading-->
-    <h1><center>Daily Devotionals</center></h1>
+    <h1>Daily Devotionals</h1>
 
-    <center><table>
-        <tr>
-            <th>
-                <!--Probably would use a class to do this and css... 
-                not sure if forms is the best way for checkable boxes-->
-                <form action="daily-devos.html">
-                <input type="checkbox" id="check" name="check" value="1" disabled="disabled">
-                </form>
-            </th>
-            <th>&emsp;Name</th>
-            <th>&emsp;Series</th>
-            <th>&emsp;Date</th>
-        </tr>
-        <tr>
-            <td>
-                <form action="daily-devos.html">
-                <input type="checkbox" id="check1" name="check1" value="check1">
-                </form>
-            </td>
-            <td>&emsp;Name1</td>
-            <td>&emsp;Series1</td>
-            <td>&emsp;Date1</td>
-        </tr>
-        <tr>
-            <td>
-                <form action="daily-devos.html">
-                <input type="checkbox" id="check2" name="check2" value="check2">
-                </form>
-            </td>
-            <td>&emsp;Name2</td>
-            <td>&emsp;Series2</td>
-            <td>&emsp;Date2</td>
-        </tr>
-        <tr>
-            <td>
-                <form action="daily-devos.html">
-                <input type="checkbox" id="check3" name="check3" value="check3">
-                </form>
-            </td>
-            <td>&emsp;Name3</td>
-            <td>&emsp;Series3</td>
-            <td>&emsp;Date3</td>
-        </tr>
-    </table></center>
+    <table>
+
+        <thead>
+            <tr>
+                <th>
+                    <!--Probably would use a class to do this and css... 
+                    not sure if forms is the best way for checkable boxes-->
+                    <form action="daily-devos.html">
+                    <input type="checkbox" id="check" name="check" value="1" disabled="disabled">
+                    </form>
+                </th>
+                <th>Name</th>
+                <th>Series</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <form action="daily-devos.html">
+                    <input type="checkbox" id="check1" name="check1" value="check1">
+                    </form>
+                </td>
+                <td>Name1</td>
+                <td>Series1</td>
+                <td>Date1</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="daily-devos.html">
+                    <input type="checkbox" id="check2" name="check2" value="check2">
+                    </form>
+                </td>
+                <td>Name2</td>
+                <td>Series2</td>
+                <td>Date2</td>
+            </tr>
+            <tr>
+                <td>
+                    <form action="daily-devos.html">
+                    <input type="checkbox" id="check3" name="check3" value="check3">
+                    </form>
+                </td>
+                <td>Name3</td>
+                <td>Series3</td>
+                <td>Date3</td>
+            </tr>
+        </tbody>
+
+    </table>
 
     </body>
 </html>

@@ -1,0 +1,28 @@
+html {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid lightslategrey;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid lightslategray;
+  }
+
+th {
+    background-color: lightgrey;
+}
+
+tbody td {
+    text-align: center;
+}
