@@ -6,6 +6,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    color: blue;
+}
+
  article {
     margin: 5%;
 }
@@ -44,13 +48,13 @@ h1 {
 }
 
 .btn1:focus, .btn2:focus{
-    outline: lightblue solid 1px;
-    border-color: lightblue;
+    outline: rgb(2, 152, 238) solid 1px;
+    border-color: rgb(2, 152, 238);
 }
 
 /*Needs to be pushed to the right of the page
 .btn2 {
-
+    
 }*/
 
 /*.aud {
