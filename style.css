@@ -1,4 +1,5 @@
 html {
+    background: tan;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -8,6 +9,7 @@ h1 {
 }
 
 table {
+    background-color: white;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
@@ -20,9 +22,14 @@ th, td {
   }
 
 th {
+    font-size: x-large;
     background-color: lightgrey;
 }
 
 tbody td {
     text-align: center;
 }
+
+/*.checkbox {
+        display: inline-flex;
+}*/
