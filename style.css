@@ -1,0 +1,35 @@
+html {
+    background: tan;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    background-color: white;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid lightslategrey;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid lightslategray;
+  }
+
+th {
+    font-size: x-large;
+    background-color: lightgrey;
+}
+
+tbody td {
+    text-align: center;
+}
+
+/*.checkbox {
+        display: inline-flex;
+}*/
