@@ -59,3 +59,7 @@ input:-moz-placeholder { color: #5a688d; }
 .aud {
     width: 100%;
 }
+
+a {
+    text-decoration: underline;
+}
