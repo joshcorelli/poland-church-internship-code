@@ -1,4 +1,4 @@
-html {
+body {
     background-color: tan;
 }
 
@@ -22,7 +22,7 @@ a {
 }
 
 .sect {
-    /*margin-left: 45%;*/
+    margin-left: 45%;
     border: 1px solid black;
 }
 

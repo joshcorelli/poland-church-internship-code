@@ -3,7 +3,9 @@
 <html>
     
     <head>
-        <link rel="stylesheet" href="stylesheet.css">
+        <!--<link rel="stylesheet" href="stylesheet.css">-->
+        <link rel="stylesheet" href="css/bulma.min.css">
+        <link rel="stylesheet" href="css/index.css">
 
         <!--Includes any character from any language-->
         <meta charset="utf-8">
@@ -11,21 +13,61 @@
         <title>Sermons</title>
     </head>
 
-    <body>
+    <body class="splash">
 
-        <h1>Sermons</h1>
+        <article  id="Sunday-Sermon" class="has-text-centered is-fullheight">
 
-        <article>
+            <section id="Sermonsection" class="content is-centered is-fluid is-fullhd">
 
-            <div class="tile">
+                <div class="tile is-child is-light box is-vertical">
+                    <p id="liveStreamFeed" class="subtitle is-size-3">Sermons</p>
+                    <hr class="hr-black">
+                
+
+                    <div class="columns">
+                        <div class="column">
+                            <div class="box">
+                                <a href="#">First column</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <a href="#">Second column</a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="box">
+                                <a href="#">Third column</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <section class="tile is-child notification is-info">
+                        <p class="title">Sermon Title</p>
+
+                            <!--Fix this-->
+                            <hr class="hr-black">
+
+                        <audio controls src="Khalid.wav" class="aud">
+                            Your browser does not support the <code>audio</code> element.
+                        </audio>
+
+                    </section>
+
+                </div>
+
+            </section>
+
+            <!--<div class="tile">
             
                 <h2> <a href="#">Sermon title 1</a></h2>
 
                 <p>Scripture passage 1</p>
 
-            </div>
+            </div>-->
 
-            <section class="sect">
+            <!--<section class="sect">
                 
                     <div class="sectcontent">
                 
@@ -52,9 +94,9 @@
 
                     </div>
 
-            </section>
+            </section>-->
 
-            <div class="tile">
+            <!--<div class="tile">
             
                 <h2> <a href="#">Sermon title 2</a></h2>
 
@@ -75,7 +117,7 @@
             <section>
                 
 
-            </section>
+            </section>-->
 
         </article>
         

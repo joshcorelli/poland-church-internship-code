@@ -55,3 +55,7 @@ input:-moz-placeholder { color: #5a688d; }
 /* @media only screen and (min-width: 481px) {
     .field { width: 30%; }
 } */
+
+.aud {
+    width: 100%;
+}
