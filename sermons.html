@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
 <html>
+
+<!--Add title class around <a> and subtitle class around <p> and download <a> on downlaod audio button-->
     
     <head>
         <!--<link rel="stylesheet" href="stylesheet.css">-->
@@ -27,20 +29,20 @@
                     <div class="columns">
                         <div class="column">
                             <div class="box">
-                                <a href="#" class="is-size-5">Sermon title</a>
-                                <p>Scripture passage</p>
+                                <h5 class="title"><a href="#" class="is-size-4">Sermon title</a></h5>
+                                <p class="subtitle">Scripture passage</p>
                             </div>
                         </div>
                         <div class="column">
                             <div class="box">
-                                <a href="#" class="is-size-5">Sermon title</a>
-                                <p>Scripture passage</p>
+                                <h5 class="title"><a href="#" class="is-size-4">Sermon title</a></h5>
+                                <p class="subtitle">Scripture passage</p>
                             </div>
                         </div>
                         <div class="column">
                             <div class="box">
-                                <a href="#" class="is-size-5">Sermon title</a>
-                                <p>Scripture passage</p>
+                                <h5 class="title"><a href="#" class="is-size-4">Sermon title</a></h5>
+                                <p class="subtitle">Scripture passage</p>
                             </div>
                         </div>
                     </div>
@@ -52,16 +54,19 @@
                             <hr class="hr-black">
 
                         <audio controls src="Khalid.wav" class="aud">
-                            Your browser does not support the <code>audio</code> element.
+                            Your browser does not support the <code>audio</code> player.
                         </audio>
 
-                        <button id="DownloadAudioButton" class="button is-green-button level-left">Download Audio</button>
+                        <div style="display: flex">
+                        <a id="DownloadAudioButton" download href="Khalid.wav" 
+                        class="button is-green-button DownloadAud">Download Audio</a>
+                        </div>
 
                         <div class="video-responsive">
                             <iframe src="https://www.youtube-nocookie.com/embed/huy1qcndhpk?playsinline=1&fs=1&enablejsapi=1&enablecastapi=1" frameborder="0"
                               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="is-tile-centered"
                               allowfullscreen></iframe>
-                          </div>
+                        </div>
 
 
                         <!--<div class="box">-->
